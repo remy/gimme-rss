@@ -1,0 +1,28 @@
+{
+  "name": "slurpy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Remy Sharp (https://remysharp.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@remy/envy": "^4.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-node": "^10.0.0"
+  }
+}
