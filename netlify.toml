@@ -1,0 +1,16 @@
+[build]
+  # Netlify will publish the public directory
+  publish = "public"
+  # No build command needed for this simple project
+  command = ""
+
+[functions]
+  # Location of Netlify Functions
+  directory = ".netlify/functions"
+
+[[redirects]]
+  # Redirect /send to the Netlify function
+  from = "/send"
+  to = "/.netlify/functions/send"
+  status = 200
+  force = true
